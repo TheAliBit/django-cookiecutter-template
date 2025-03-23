@@ -28,3 +28,4 @@ jdatetime
 # Security & Deployment
 whitenoise  # Handles static files in production
 gunicorn  # WSGI server for running Django
+django-cors-headers
