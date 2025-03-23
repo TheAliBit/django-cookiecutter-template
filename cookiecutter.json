@@ -1,7 +1,3 @@
 {
-  "project_name": "My Django Project",
-  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-  "django_version": "4.2",
-  "use_celery": "yes",
-  "use_docker": "no"
+  "project_slug": "project_slug"
 }
