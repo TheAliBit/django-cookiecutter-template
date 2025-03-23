@@ -1,0 +1,143 @@
+# ========================
+# 🐍 Python / Django Stuff
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py,cover
+*$py.class
+*.so
+
+# Django settings and secrets
+local_settings.py
+settings_local.py
+.env
+*.env
+secrets.json
+
+# Database files (SQLite, PostgreSQL, MySQL)
+db.sqlite3
+*.sqlite3
+*.pg_dump
+*.sql
+*.db
+
+# Django static/media files
+static/
+staticfiles/
+media/
+mediafiles/
+
+# Django migrations (ignore generated migrations, keep __init__.py)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Celery logs and cache
+celerybeat-schedule
+celerybeat.pid
+
+# Gunicorn (if using Gunicorn for deployment)
+gunicorn.log
+gunicorn.pid
+
+# ========================
+# 🔧 Virtual Environments
+# ========================
+venv/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Poetry & Pipenv
+Pipfile
+Pipfile.lock
+poetry.lock
+pyenv.lock
+
+# ========================
+# 💻 OS-Specific Files
+# ========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Linux
+*~
+.nfs*
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ========================
+# 🖥️ IDE & Editor Configs
+# ========================
+
+# VSCode
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/extensions.json
+
+# PyCharm / JetBrains
+.idea/
+.idea/*
+*.iml
+*.ipr
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/shelf/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Code::Blocks
+*.cbp
+*.code-workspace
+
+# Eclipse
+.project
+.classpath
+.csettings
+.metadata
+.apt_generated/
+.factorypath
+
+# ========================
+# 📦 Node.js / JavaScript (if using Django templates with JS)
+# ========================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ========================
+# 🧪 Testing & Coverage
+# ========================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+pytest_cache/
+hypothesis/
+
+# ========================
+# 🐳 Docker (if using)
+# ========================
+docker-compose.override.yml
+.dockerignore
