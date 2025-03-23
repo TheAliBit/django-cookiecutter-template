@@ -1,0 +1,30 @@
+# Core Django
+Django
+
+# Debugging & Filtering
+django-debug-toolbar
+django-filter
+
+# Database
+psycopg2-binary  # Use psycopg2 in production
+python-decouple  # OR use django-environ
+
+# Media Handling
+Pillow
+
+# Background Tasks & Caching
+celery
+redis
+django-redis
+
+# Testing
+pytest
+pytest-django
+model-bakery
+
+# Jalali Date Support (if needed)
+jdatetime
+
+# Security & Deployment
+whitenoise  # Handles static files in production
+gunicorn  # WSGI server for running Django
