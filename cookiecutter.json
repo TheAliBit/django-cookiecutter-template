@@ -1,5 +1,5 @@
 {
-  "django_slug": "django_slug",
+  "project_slug": "django_slug",
   "postgres_db_name": "db_name",
   "postgres_user": "user",
   "postgres_password": "password"
